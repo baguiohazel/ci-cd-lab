@@ -20,5 +20,5 @@ jobs:
           python-version: "3.10"
 
       - name: Run tests
-        run: python -m uunittest discover -s . -p "test_main.py"
+        run: python -m unittest discover -s . -p "test_main.py"
         
